@@ -1,7 +1,7 @@
 <?php
 include("conectdb.php");
 
-$ConsultaSql=("SELECT * FROM Agenda WHERE Apellido='Castillo' ORDER BY Nombre");
+$ConsultaSql=("SELECT * FROM Agenda WHERE Apellido='Torvals' ORDER BY Nombre");
 $Resultado=$conexion->query($ConsultaSql);
 
 if ($Resultado->num_rows>0) 

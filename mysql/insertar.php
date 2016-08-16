@@ -10,7 +10,7 @@ if (mysqli_connect_errno())
 */
 if ($conexion->query("INSERT INTO Agenda
 	(Nombre, Apellido, Edad, Telefono) VALUES
-	('David','Castillo','34','0987782638')
+	('Linus','Torvals','38','0980082638')
 	")===TRUE)
 	{printf("Registro creado\n");} 
 
