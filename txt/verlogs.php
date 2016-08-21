@@ -12,10 +12,6 @@ echo
 	<td>Segundo</td>
 	<td>Navegador</td>
 	<td>IP</td>
-
-
-
-
 ';
 
 while ($datos=fgetcsv($manejador,1000000,"|")) 

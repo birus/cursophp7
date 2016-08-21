@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"sql",
+				"sqlite_close"
+			],
+			[
+				"sqlite",
+				"sqlite_open"
+			],
+			[
 				"local",
 				"localhost"
 			],
@@ -84,50 +92,11 @@
 	"buffers":
 	[
 		{
-			"file": "mysql/select.php",
+			"file": "favoritosonline/instalacion.php",
 			"settings":
 			{
-				"buffer_size": 373,
-				"line_ending": "Windows",
-				"name": "<?php"
-			}
-		},
-		{
-			"file": "mysql/where.php",
-			"settings":
-			{
-				"buffer_size": 366,
-				"line_ending": "Windows",
-				"name": "<?php"
-			}
-		},
-		{
-			"file": "mysql/insertar.php",
-			"settings":
-			{
-				"buffer_size": 359,
+				"buffer_size": 526,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/USUARIO/Desktop/ProyectosSoftware/ApuntesDeCodigo/EXCEL.txt",
-			"settings":
-			{
-				"buffer_size": 156,
-				"line_ending": "Windows",
-				"name": "obtener valores de celda y convertirlo a numero"
-			}
-		},
-		{
-			"contents": "GIT\n\ngit init\n\ngit status\n\nAgregar Todo a la lista de pendientes\n	git add -A \n\nRealizar Commit\n\n	git commit -m \"Mensaje\"\n\n\nRevisar el Log de Cambios\n	git log\n\nVolver a un Commit anterior\n	git checkout CodigoSHA\n\nIr al Commit más actual al último que se realizó\n\n	git checkout master\n\nEliminar un commit \n	git reset --soft CodigoSHA (Sin tocar el código del area de trabajo)\n\n	D:\\USUARIO\\Desktop\\ProyectosSoftware\\ConiMantelec\\Ruta1Zona6.xlsx",
-			"file": "/D/USUARIO/Desktop/ProyectosSoftware/ApuntesDeCodigo/GIT.txt",
-			"file_size": 124,
-			"file_write_time": 131153449966308604,
-			"settings":
-			{
-				"buffer_size": 441,
-				"line_ending": "Windows",
-				"name": "GIT"
 			}
 		},
 		{
@@ -135,8 +104,7 @@
 			"settings":
 			{
 				"buffer_size": 278,
-				"line_ending": "Windows",
-				"name": "<?php"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -222,17 +190,33 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/php",
+		"/C/xampp/htdocs/php/favoritosonline",
 		"/C/xampp/htdocs/php/mysql"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/php/favoritosonline/instalacion.php",
+		"/C/xampp/htdocs/php/txt/logueador.php",
+		"/C/xampp/htdocs/php/txt/logs.dat",
+		"/C/xampp/htdocs/php/info.php",
+		"/C/xampp/htdocs/php/favoritosonline/principal.php",
+		"/C/xampp/htdocs/php/favoritosonline/index.php",
+		"/C/xampp/htdocs/php/txt/verlogs.php",
+		"/C/xampp/htdocs/php/txt/escribir.php",
+		"/C/xampp/htdocs/php/mysql/select.php",
+		"/C/xampp/htdocs/php/mysql/insertar.php",
 		"/C/xampp/htdocs/php/mysql/update.php",
+		"/C/xampp/htdocs/php/mysql/delete.php",
+		"/C/xampp/htdocs/php/txt/text.txt",
+		"/C/xampp/htdocs/php/mysql/where.php",
+		"/C/xampp/htdocs/php/mysql/conectdb.php",
+		"/D/USUARIO/Desktop/ProyectosSoftware/ApuntesDeCodigo/GIT.txt",
+		"/D/USUARIO/Desktop/ProyectosSoftware/ApuntesDeCodigo/EXCEL.txt",
 		"/C/Users/BIRUS/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
 		"/C/Users/BIRUS/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 		"/C/Users/BIRUS/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
 		"/C/xampp/htdocs/php/mysql/conectar.php",
 		"/C/xampp/htdocs/php/if.php",
-		"/C/xampp/htdocs/php/mysql/insertar.php",
 		"/C/xampp/htdocs/php/llamarmetodo.php",
 		"/C/xampp/htdocs/php/includeonce.php",
 		"/C/xampp/htdocs/php/clases.php",
@@ -252,7 +236,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 		]
@@ -281,157 +265,41 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mysql/select.php",
+					"file": "favoritosonline/instalacion.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 373,
+						"buffer_size": 526,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								190,
-								312
+								470,
+								470
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<?php",
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 43.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "mysql/where.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 366,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								109,
-								109
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<?php",
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "mysql/insertar.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 359,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								309,
-								309
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/D/USUARIO/Desktop/ProyectosSoftware/ApuntesDeCodigo/EXCEL.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 156,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								156,
-								156
-							]
-						],
-						"settings":
-						{
-							"auto_name": "obtener valores de celda y convertirlo a numero",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/D/USUARIO/Desktop/ProyectosSoftware/ApuntesDeCodigo/GIT.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 441,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								441,
-								376
-							]
-						],
-						"settings":
-						{
-							"auto_name": "GIT",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "mysql/conectdb.php",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 278,
@@ -441,20 +309,19 @@
 						"selection":
 						[
 							[
-								81,
-								81
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<?php",
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -537,7 +404,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 130.0,
+	"side_bar_width": 226.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
